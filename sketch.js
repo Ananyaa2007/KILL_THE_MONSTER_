@@ -6,7 +6,7 @@ const Constraint = Matter.Constraint;
 
 function preload() {
 //loading the images
-bgImg = loadImage("images/GamingBackground.png");
+//bgImg = loadImage("images/GamingBackground.png");
 }
 
 function setup() {
@@ -47,7 +47,7 @@ function setup() {
 }
 
 function draw() {
-  background(bgImg);
+  background("lightblue");
 
   Engine.update(engine);
 
